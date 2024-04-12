@@ -43,7 +43,7 @@ public class ProductServiceImpl implements ProductService {
 
 		if (repo.existsById(PId)) {
 			repo.deleteById(PId);
-			return "Delete success";
+			return "Record Deleted success";
 		} else {
 			return "No records found";
 		}
